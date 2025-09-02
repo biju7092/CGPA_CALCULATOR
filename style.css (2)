@@ -1,0 +1,20 @@
+#download-section {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#download-section button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+#download-section button:hover {
+  background: #218838;
+}

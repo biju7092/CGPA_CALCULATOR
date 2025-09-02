@@ -1,0 +1,3 @@
+<div id="download-section">
+  <button onclick="downloadPDF()">Download Result as PDF</button>
+</div>

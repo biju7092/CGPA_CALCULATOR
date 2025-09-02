@@ -1,0 +1,112 @@
+/* --- General Styles --- */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f7fb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input {
+  padding: 8px;
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+button {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 6px;
+  transition: 0.3s;
+}
+
+button:hover:not(:disabled) {
+  background: #005fa3;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.grade-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.grade-buttons button {
+  width: 90px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.summary {
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.summary p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.result {
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.reset-btn {
+  display: block;
+  margin: 0 auto;
+  background: #e63946;
+}
+
+.reset-btn:hover {
+  background: #b81d2a;
+}
